@@ -1,0 +1,66 @@
+.bg-index {
+  background: url("FitJacket/static/img/fitjacket.jpg") no-repeat center center;
+  background-attachment: scroll;  /* Not fixed, so it scrolls with the page */
+  background-size: 50% auto;      /* Scale the image down to 50% of its width */
+  min-height: 400px;              /* Give the container a minimum height so it can display the image */
+}
+
+.navbar-brand {
+  color: darkgoldenrod;
+}
+
+.navbar a.nav-link {
+
+  color: darkgoldenrod  !important;
+
+}
+
+.navbar {
+
+  background-color: midnightblue !important;
+
+}
+
+.ms-footer {
+
+  background-color: midnightblue;
+
+}
+
+.ms-footer p {
+
+  color: darkgoldenrod;
+
+  font-size: 13px;
+
+}
+
+.ms-footer a:hover {
+
+  color: darkgoldenrod;
+
+  text-decoration: none;
+
+}
+
+.ms-footer-bottom span{
+
+  font-size: 13px;
+
+  line-height: 38px;
+
+}
+
+.ms-footer-bottom a {
+
+  color: darkgoldenrod;
+
+  text-decoration: none;
+
+}
+
+.ms-footer-bottom a:hover {
+
+  color: #fff;
+
+}
