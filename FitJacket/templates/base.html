@@ -42,6 +42,11 @@
         {% if user.is_authenticated %}
             <a class="nav-link active" aria-current="page" href="#">Home</a>
             <a class="nav-link" href="#">Sports</a>
+             <a class="nav-link" href="{% url 'accounts.signup' %}">Join A Challenge!</a>
+             <a class="nav-link" href="{% url 'accounts.signup' %}">Achievements</a>
+             <a class="nav-link" href="{% url 'accounts.signup' %}">Quick Workout</a>
+             <a class="nav-link" href="{% url 'accounts.signup' %}">Friends</a>
+             <a class="nav-link" href="{% url 'accounts.signup' %}">Account Settings</a>
     </div>
             <span class="hello-msg">Hello, {{request.user}}</span>
             <span><a class="hello-msg" href="{% url 'accounts.logout' %}">Logout</a> </span>
